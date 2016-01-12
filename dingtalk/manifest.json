@@ -1,0 +1,25 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "钉钉",
+  "description": "Dingtalk redefine communication & collaboration.",
+  "manifest_version": 2,
+  "version": "0.1.0",
+  "app": {
+    "background": {
+      "scripts": [
+        "background.js"
+      ]
+    }
+  },
+  "permissions": [
+	"webview",
+	"alarms",
+  	"https://im.dingtalk.com/"
+  ],
+  "icons": {
+    "128": "icon-128.png"
+  },
+  "default_locale": "en",
+  "minimum_chrome_version": "31.0.1650.8"
+}
